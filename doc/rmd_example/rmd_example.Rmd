@@ -53,7 +53,7 @@ Note that we define standard deviation (of a sample) as
 
 $$s = sqrt( sum_{i = 1}^n(x_i - \bar{x}) / (n-1))$$
 
-Additionally, note that in Table \@ref(tab:horse-table) we consider the sample standard deviation of the number of horses during the same time span as Figure1.
+Additionally, note that in Table \@ref(tab:horse-table) we consider the sample standard deviation of the number of horses during the same time span as Figure \@ref(fig:horse-plot).
 
 ```{r horse-pop-large-sd-plot,out.width="90%", fig.cap="Horse populations for the province with the largest standard deviation"}
 knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
